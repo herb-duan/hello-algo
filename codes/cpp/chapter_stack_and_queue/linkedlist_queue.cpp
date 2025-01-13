@@ -1,7 +1,7 @@
 /**
  * File: linkedlist_queue.cpp
  * Created Time: 2022-11-25
- * Author: Krahets (krahets@163.com)
+ * Author: krahets (krahets@163.com)
  */
 
 #include "../utils/common.hpp"
@@ -36,7 +36,7 @@ class LinkedListQueue {
 
     /* 入队 */
     void push(int num) {
-        // 尾节点后添加 num
+        // 在尾节点后添加 num
         ListNode *node = new ListNode(num);
         // 如果队列为空，则令头、尾节点都指向该节点
         if (front == nullptr) {
